@@ -1,0 +1,8 @@
+<suite name="Guru99 Suite"></suite>
+<test name="Base"></test>
+<classes>
+	<class name="com.Guru99.BaseTest"></class>
+</classes>
+classes>
+</test>
+</suite>
