@@ -1,0 +1,7 @@
+This is the test guidlines for both DevOps and Client.
+Test condition requiremments: Please Excute test start with "Base.java" location:
+ /GURU99LiveSupport/src/com/Guru99/BaseTest/Base.java
+ please make sure you machine browser(Chrome) version is : ChromeDriver 80.0.3987.106
+ if there any IO exception accures during excution such as: \GURU99LiveSupport\Config\Config.properties (The system cannot find the path specified),
+  please download the config file and Excel data sheets into your local machine then change the path for both congfig and excel sheet files.
+  HTML Report is located in ===> /GURU99LiveSupport/test-output/emailable-report.html

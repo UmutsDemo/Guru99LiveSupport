@@ -18,8 +18,9 @@ public class Guru99Util {
 		
 		
 		
-		
-		FileInputStream file = new FileInputStream("C:\\Users\\umutx\\eclipse-workspace\\GURU99LiveSupport\\Config\\Config.properties");
+		///GURU99LiveSupport/Config/Config.properties
+		//C:\\Users\\umutx\\eclipse-workspace\\GURU99LiveSupport\\Config\\Config.properties
+		FileInputStream file = new FileInputStream("/GURU99LiveSupport/Config/Config.properties");
 		
 		Properties property = new Properties();
 		
@@ -35,8 +36,9 @@ public class Guru99Util {
 		
 		
 		
-		
-		FileInputStream file = new FileInputStream("C:\\Users\\umutx\\eclipse-workspace\\GURU99LiveSupport\\Config\\Elements.properties");
+		// /GURU99LiveSupport/Config/Config.properties
+		// C:\\Users\\umutx\\eclipse-workspace\\GURU99LiveSupport\\Config\\Elements.properties
+		FileInputStream file = new FileInputStream("/GURU99LiveSupport/Config/Elements.properties");
 		
 		Properties property = new Properties();
 		
